@@ -69,9 +69,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StackExchange.Redis.DataTypes\StackExchange.Redis.DataTypes.csproj">
+    <ProjectReference Include="..\StackExchange.Redis.DataTypes\StackExchange.Redis.StrongName.DataTypes.csproj">
       <Project>{e2061e8f-0885-4dc8-a8f5-ccc5bfbd802c}</Project>
-      <Name>StackExchange.Redis.DataTypes</Name>
+      <Name>StackExchange.Redis.StrongName.DataTypes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
